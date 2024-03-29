@@ -6,7 +6,7 @@ RUN apt-get update && \
 RUN apt-get install build-essential python3-dev -y
 RUN apt install git -y
 # Set the working directory
-WORKDIR /app
+WORKDIR /Adlinkfly-bot
 
 # Copy the requirements file to the working directory
 COPY start.sh /start.sh
