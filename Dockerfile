@@ -9,7 +9,7 @@ RUN apt install git -y
 WORKDIR /Adlinkfly-bot
 
 COPY requirements.txt /requirements.txt
-RUN pip3 install -r /requirements.txt
+RUN pip install -r /requirements.txt
 # Copy the requirements file to the working directory
 COPY start.sh /start.sh
 
