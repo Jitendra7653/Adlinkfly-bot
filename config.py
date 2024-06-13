@@ -42,7 +42,7 @@ BROADCAST_AS_COPY = is_enabled(
     (os.environ.get("BROADCAST_AS_COPY", "False")), False
 )  # true if forward should be avoided
 IS_PRIVATE = is_enabled(
-    os.environ.get("IS_PRIVATE", "True"))  # true for private use and restricting users
+    os.environ.get("IS_PRIVATE", "true"))  # true for private use and restricting users
 SOURCE_CODE = os.environ.get(
     "SOURCE_CODE", "https://allin1tricks.online"
 )  # for upstream repo
